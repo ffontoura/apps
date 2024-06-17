@@ -10,6 +10,7 @@ const compatibilityApps = [{
 
 const config = {
   apps: [
+    app("n49shop"),
     app("anthropic"),
     app("resend"),
     app("konfidency"),

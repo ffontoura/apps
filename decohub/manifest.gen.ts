@@ -15,19 +15,20 @@ import * as $$$$$$$$$$$9 from "./apps/konfidency.ts";
 import * as $$$$$$$$$$$10 from "./apps/linx-impulse.ts";
 import * as $$$$$$$$$$$11 from "./apps/linx.ts";
 import * as $$$$$$$$$$$12 from "./apps/mailchimp.ts";
-import * as $$$$$$$$$$$13 from "./apps/nuvemshop.ts";
-import * as $$$$$$$$$$$14 from "./apps/power-reviews.ts";
-import * as $$$$$$$$$$$15 from "./apps/resend.ts";
-import * as $$$$$$$$$$$16 from "./apps/shopify.ts";
-import * as $$$$$$$$$$$17 from "./apps/sourei.ts";
-import * as $$$$$$$$$$$18 from "./apps/typesense.ts";
-import * as $$$$$$$$$$$19 from "./apps/verified-reviews.ts";
-import * as $$$$$$$$$$$20 from "./apps/vnda.ts";
-import * as $$$$$$$$$$$21 from "./apps/vtex.ts";
-import * as $$$$$$$$$$$22 from "./apps/wake.ts";
-import * as $$$$$$$$$$$23 from "./apps/wap.ts";
-import * as $$$$$$$$$$$24 from "./apps/weather.ts";
-import * as $$$$$$$$$$$25 from "./apps/workflows.ts";
+import * as $$$$$$$$$$$13 from "./apps/n49shop.ts";
+import * as $$$$$$$$$$$14 from "./apps/nuvemshop.ts";
+import * as $$$$$$$$$$$15 from "./apps/power-reviews.ts";
+import * as $$$$$$$$$$$16 from "./apps/resend.ts";
+import * as $$$$$$$$$$$17 from "./apps/shopify.ts";
+import * as $$$$$$$$$$$18 from "./apps/sourei.ts";
+import * as $$$$$$$$$$$19 from "./apps/typesense.ts";
+import * as $$$$$$$$$$$20 from "./apps/verified-reviews.ts";
+import * as $$$$$$$$$$$21 from "./apps/vnda.ts";
+import * as $$$$$$$$$$$22 from "./apps/vtex.ts";
+import * as $$$$$$$$$$$23 from "./apps/wake.ts";
+import * as $$$$$$$$$$$24 from "./apps/wap.ts";
+import * as $$$$$$$$$$$25 from "./apps/weather.ts";
+import * as $$$$$$$$$$$26 from "./apps/workflows.ts";
 
 const manifest = {
   "apps": {
@@ -44,19 +45,20 @@ const manifest = {
     "decohub/apps/linx-impulse.ts": $$$$$$$$$$$10,
     "decohub/apps/linx.ts": $$$$$$$$$$$11,
     "decohub/apps/mailchimp.ts": $$$$$$$$$$$12,
-    "decohub/apps/nuvemshop.ts": $$$$$$$$$$$13,
-    "decohub/apps/power-reviews.ts": $$$$$$$$$$$14,
-    "decohub/apps/resend.ts": $$$$$$$$$$$15,
-    "decohub/apps/shopify.ts": $$$$$$$$$$$16,
-    "decohub/apps/sourei.ts": $$$$$$$$$$$17,
-    "decohub/apps/typesense.ts": $$$$$$$$$$$18,
-    "decohub/apps/verified-reviews.ts": $$$$$$$$$$$19,
-    "decohub/apps/vnda.ts": $$$$$$$$$$$20,
-    "decohub/apps/vtex.ts": $$$$$$$$$$$21,
-    "decohub/apps/wake.ts": $$$$$$$$$$$22,
-    "decohub/apps/wap.ts": $$$$$$$$$$$23,
-    "decohub/apps/weather.ts": $$$$$$$$$$$24,
-    "decohub/apps/workflows.ts": $$$$$$$$$$$25,
+    "decohub/apps/n49shop.ts": $$$$$$$$$$$13,
+    "decohub/apps/nuvemshop.ts": $$$$$$$$$$$14,
+    "decohub/apps/power-reviews.ts": $$$$$$$$$$$15,
+    "decohub/apps/resend.ts": $$$$$$$$$$$16,
+    "decohub/apps/shopify.ts": $$$$$$$$$$$17,
+    "decohub/apps/sourei.ts": $$$$$$$$$$$18,
+    "decohub/apps/typesense.ts": $$$$$$$$$$$19,
+    "decohub/apps/verified-reviews.ts": $$$$$$$$$$$20,
+    "decohub/apps/vnda.ts": $$$$$$$$$$$21,
+    "decohub/apps/vtex.ts": $$$$$$$$$$$22,
+    "decohub/apps/wake.ts": $$$$$$$$$$$23,
+    "decohub/apps/wap.ts": $$$$$$$$$$$24,
+    "decohub/apps/weather.ts": $$$$$$$$$$$25,
+    "decohub/apps/workflows.ts": $$$$$$$$$$$26,
   },
   "name": "decohub",
   "baseUrl": import.meta.url,
