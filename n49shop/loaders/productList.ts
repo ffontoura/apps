@@ -39,8 +39,6 @@ async function loader(
     result = [];
   }
 
-  console.log(result);
-
   const products = result?.map((product) => {
     return toProduct(product.variants[0], product, new URL(url), 0);
   }).flat();

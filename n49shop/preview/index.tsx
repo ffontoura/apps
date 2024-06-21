@@ -36,7 +36,7 @@ export default function Preview() {
             </label>
             <label class="flex flex-col gap-2">
               <strong>API KEY</strong>
-                {apiKey}
+              {apiKey}
             </label>
           </div>
         </div>

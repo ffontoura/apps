@@ -9,7 +9,6 @@ import workflow from "../workflows/mod.ts";
 import { N49ShopAPI } from "./utils/client.ts";
 import { fetchSafe } from "../utils/fetch.ts";
 import manifest, { Manifest } from "./manifest.gen.ts";
-import type { Secret } from "../website/loaders/secret.ts";
 
 import { ClientOf } from "../utils/http.ts";
 import PreviewN49shop from "./preview/index.tsx";
@@ -18,8 +17,6 @@ export type App = ReturnType<typeof N49shop>;
 export type AppContext = AC<App>;
 export type AppManifest = ManifestOf<App>;
 export type AppMiddlewareContext = AMC<App>;
-
-const BASE_URL = "https://api.n49shop.com.br/";
 
 interface State {
   api: ClientOf<N49ShopAPI>;
@@ -66,9 +63,7 @@ export const color = 0x272D4B;
 export default function N49shop(
   { storeId, apiKey, publicUrl }: Props,
 ) {
-  const stringApiKey = typeof apiKey === "string"
-    ? apiKey
-    : apiKey?.get?.() ?? "";
+  const stringApiKey = typeof apiKey === "string" ? apiKey : "";
 
   const headers = new Headers();
   headers.set("accept", "application/json");
@@ -85,7 +80,7 @@ export default function N49shop(
     api,
     publicUrl: publicUrl,
     storeId: storeId,
-    apiKey: stringApiKey
+    apiKey: stringApiKey,
   };
 
   const app: A<Manifest, State, [ReturnType<typeof workflow>]> = {

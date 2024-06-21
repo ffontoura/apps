@@ -26,7 +26,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;deno.use.library&quot;: &quot;true&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/srv/www/decoapps/apps/n49shop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/srv/www/vhosts-srv-produtos&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -66,6 +66,15 @@
       <workItem from="1718636516782" duration="1990000" />
       <workItem from="1718648378134" duration="422000" />
       <workItem from="1718652024870" duration="2942000" />
+      <workItem from="1718661648173" duration="745000" />
+      <workItem from="1718662517966" duration="621000" />
+      <workItem from="1718681870680" duration="533000" />
+      <workItem from="1718682821227" duration="695000" />
+      <workItem from="1718709879215" duration="405000" />
+      <workItem from="1718718973943" duration="1931000" />
+      <workItem from="1718722893724" duration="1478000" />
+      <workItem from="1718989574517" duration="995000" />
+      <workItem from="1718993511938" duration="1355000" />
     </task>
     <servers />
   </component>
